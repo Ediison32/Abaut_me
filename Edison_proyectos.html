@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos</title>
+    <title>Proyects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-rXYV3Zg1aHRF7uLozE7h9Kmu7SG3O3Ha1gkL4AsjrrN8nQXW3YgAhz3IfjytgshZcXg1gYh3A5C7A9b2AK0byg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,73 +21,82 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2> Proyects</h2>
 
-        <section>
-            <h2>App_alarmas/h2>
-            <h2>first proyect</h2>
-            <!-- 
-            Este fue mi primer proyecto que me inicio y enfoco mucho en el mundo de la programacion
-                usando Arduino Uno, python, Api the Twilio, para mandar un mesaje al correo o a un numero 
-                celular si el el Arduino detecta alguna alarma. 
-            -->
-            <p>
-                It is about sending alarm messages using the Arduino one, python for software logic and Twilio Api for message delivery.
-            </p>
-            <a href="https://github.com/Ediison32/App_alarmas/blob/main/src/script.py">App_alarmas</a>
-        </section>
-        <!--  tabla  -->
-        <table>
-            <tr>
-                <th> Name proyect</th>
-                <th> Tecnologes used</th>
-                <th> link </th>
-                
-            </tr>
-            <tr>
-                <td> DataOrbit_scrapin</td>
-                <td> Python,
-                    MongoDb database, 
-                    Version control Git,
-                    Repository Github
+<main class="main-project">
+    <h2 class="main-title">Projects</h2>
 
-                </td>
-                <td><a href="https://github.com/Ediison32/DataOrbit_scrapin.git">DataOrbit_scrapin</a></td>
-      
-              
-            </tr>
-            <tr>
-                <td>License_plate_detection</td>
-                <td>
-                    Python,
-                    MongoDb database, 
-                    Version control Git,
-                    Repository Github,
-                    YoloV8 neuron model
-                </td>
-                <td><a href="https://github.com/Ediison32/DataOrbit_scrapin.git">License_plate_detection</a></td>
-                
-            </tr>
-            <tr>
-                <td>Weather_API</td>
-                <td>
-                    Python,
-                    Version control Git,
-                    Repository Github
-              
-                </td>
-                <td><a href="https://github.com/Ediison32/DataOrbit_scrapin.git">Weather_API</a></td>
-                
-            </tr>
-       
+    <section class="project-section">
+        <h3 class="project-name">App_alarmas</h3>
+        <h4 class="project-subtitle">First project</h4>
+        <p class="project-description">
+        It is about sending alarm messages using Arduino Uno, Python for software logic, and the Twilio API for message delivery. If Arduino detects an alarm, it sends a message to an email or phone number.
+        </p>
+        <a class="project-link" href="https://github.com/Ediison32/App_alarmas/blob/main/src/script.py" target="_blank">View App_alarmas</a>
+    </section>
+
+    <section class="project-table-section">
+        <h3 class="project-table-title">Other Projects</h3>
+        <table class="project-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Technologies Used</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>
+                            DataOrbit_scrapin
+                        </td>
+                        <td>
+                            Python, MongoDB, Git, GitHub
+                        </td>
+                        <td>
+                            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repository</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            License_plate_detection
+                        </td>
+                        <td>
+                            Python, MongoDB, Git, GitHub, YoloV8 neural model
+                        </td>
+                        <td>
+                            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repository</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Weather_API
+                        </td>
+                        <td>
+                            Python, Git, GitHub
+                        </td>
+                        <td>
+                            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repository</a>
+                        </td>
+                    </tr>
+            </tbody>
         </table>
+    </section>
+</main>
 
-    </main>
-    <footer>
-        <div>
-            <a href="">Git</a>
-        </div>
+    <footer class="site-footer">
+    <p class="footer-text">© 2025 Edison</p>
+    <div class="social-icons">
+        <a href="https://github.com/Ediison32" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/edison-alvarez-44325323b/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i> linkedin
+        </a>
+        <a href="edisonalvarez32@gamail.com" target="_blank" aria-label="Email">
+            <i class="fas fa-envelope"></i> email
+        </a>
+        <h6>Never ever give up</h6>
+    </div>
     </footer>
 
 </body>
