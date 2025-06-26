@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Proyectos | Edison Alvarez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="light">
+    <header class="header">
+        <div class="container">
+        <h1 class="logo">Edison Alvarez R.</h1>
+        <nav>
+            <ul class="nav-list">
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./proyectos.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="actions">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+            <button id="lang-toggle" aria-label="Cambiar Idioma"><i class="fas fa-language"></i></button>
+        </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="projects-section">
+        <h2 class="section-title">Featured Project</h2>
+        <div class="project-card highlight">
+            <h3 class="project-name">App_Alarmas</h3>
+            <p class="project-desc">
+            Sistema de alarmas con Arduino, Python y Twilio. Detecta eventos y envía alertas por SMS o email.
+            </p>
+            <div class="project-tags">
+            <span>Python</span><span>Arduino</span><span>Twilio</span>
+            </div>
+            <a href="https://github.com/Ediison32/App_alarmas/blob/main/src/script.py" target="_blank" class="project-link">Ver proyecto</a>
+        </div>
+        </section>
+
+        <section class="projects-section">
+        <h2 class="section-title">Otros Proyectos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+            <h4>DataOrbit_scrapin</h4>
+            <p>Scraping legal con Python, MongoDB y Telegram.</p>
+            <div class="project-tags"><span>Python</span><span>MongoDB</span></div>
+            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repositorio</a>
+            </div>
+            <div class="project-card">
+            <h4>License Plate Detection</h4>
+            <p>Detección de placas con YOLOv8 y visión computacional.</p>
+            <div class="project-tags"><span>Python</span><span>YOLOv8</span></div>
+            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repositorio</a>
+            </div>
+            <div class="project-card">
+            <h4>Weather API</h4>
+            <p>Consulta de clima con API REST y visualización.</p>
+            <div class="project-tags"><span>Python</span><span>API</span></div>
+            <a href="https://github.com/Ediison32/DataOrbit_scrapin.git" target="_blank">Repositorio</a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    
+        <div class="social">
+        <a href="https://github.com/Ediison32" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/edison-alvarez-44325323b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:edisonalvarez32@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="motto">Never give up 💪</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
